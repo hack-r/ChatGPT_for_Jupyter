@@ -4,6 +4,7 @@ Jupyter notebook extension that automatically queries ChatGPT with any errors an
 
 ### Usage:
 python setup.py sdist bdist_wheel
+
 pip install .
 
 jupyter serverextension enable --py chatgpt_jupyter
